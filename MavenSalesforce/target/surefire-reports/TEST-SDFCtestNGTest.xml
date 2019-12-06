@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="SDFCtestNGTest" time="3.983" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="MavenSalesforce"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/divya/.jenkins"/>
+    <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b1f9f15f5fc3c142"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="user.name" value="divya"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="MavenSalesforce"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/MavenSalesforce/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="TMPDIR" value="/var/folders/m3/d9h_gqr5011dm_lnjnn60z0h0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2/conf"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/MavenSalesforce/1/display/redirect"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/MavenSalesforce/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_MAIN_CLASS_7844" value="Main"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="divya"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/divya"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/divya"/>
+    <property name="BUILD_TAG" value="jenkins-MavenSalesforce-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b1f9f15f5fc3c142"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/divya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.Xv7p0xU7vU/Render"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2 /Users/divya/.jenkins/war/WEB-INF/lib/remoting-3.33.jar /Users/divya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/divya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 57928"/>
+    <property name="java.class.path" value="/Users/divya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar:/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="M2_HOME" value="/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/m3/d9h_gqr5011dm_lnjnn60z0h0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/divya/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MavenSalesforce/1/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.iqF9UKONdM/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/divya/Documents/Selenium/0718/TestNG/TestNGWS/MavenSalesforce"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/MavenSalesforce/"/>
+    <property name="MAVEN_HOME" value="/Users/divya/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/_Users_divya_Applications_apache-maven-3.6.2"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/divya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="/Users/divya/Documents/Selenium/0718/TestNG/TestNGWS/MavenSalesforce"/>
+    <property name="maven3.interceptor.common" value="/Users/divya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="USER" value="divya"/>
+  </properties>
+  <testcase classname="SDFCtestNGTest" name="TC02_LogintoSFDC" time="3.983"/>
+</testsuite>
